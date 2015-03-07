@@ -35,7 +35,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 	padding:0.1em;
 }
 
-a:hover {
+a:hover, a:focus {
 	color: white;
 	background-color: rgba(136, 139, 141, 0.7);
 	border-radius: 0.2em;
