@@ -29,14 +29,22 @@ body{
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #C41E3A;
-	text-decoration: none;
+	color: #F6BE00;
+	text-decoration: underline;
+	display:inline-block;
+	padding:0.1em;
 }
 
-h1 {		     /* This styles the header at the top of the page */
-	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+a:hover {
 	color: white;
+	background-color: rgba(136, 139, 141, 0.7);
+	border-radius: 0.2em;
+}
+	
+h1 {		     /* This styles the header at the top of the page */
+	font: bold 2.1em 'Source Sans Pro', Arial, Sans-Serif;
+	text-align: left;
+	color: #C8102E;
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -56,15 +64,10 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
+	background:#00B388;
 	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
-}
-
-/* You can alter the links within a div with the following syntax */
-#plan a {
-	color: #C41E3A;
 }
 
 /* This alters the appearance of the div with id="signup". */
@@ -81,8 +84,8 @@ div.section {
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
-.minileft {
-	float: left;
+.miniright {
+	float: right;
 	height: 100%;
 	margin-bottom:1.5em;
 	margin-right: 1em;
