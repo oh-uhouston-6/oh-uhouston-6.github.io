@@ -29,7 +29,7 @@ body{
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #C41E3A;
+	color: #1c0b77;
 	text-decoration: none;
 }
 
@@ -56,15 +56,17 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
+	/*background:#000080;*/
 	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
-	background-image: none;  /* replace none with url('image-url') to set a background image  */
+	background-image: url('http://wallpaperswa.com/download/view?resolution=2560x1440&file=MjU2MHgxNDQwLzIwMTIxMDI2L2dyZWVuIGJsdWUgbWluaW1hbGlzdGljIGdhdXNzaWFuIGJsdXIgYmx1cnJlZCAyNTYweDE0NDAgd2FsbHBhcGVyX3dhbGxwYXBlcnN3YS5jb21fNS5qcGc=&name=Z3JlZW5fYmx1ZV9taW5pbWFsaXN0aWNfZ2F1c3NpYW5fYmx1cl9ibHVycmVkXzI1NjB4MTQ0MF93YWxscGFwZXI=');  /* replace none with url('image-url') to set a background image  */
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* You can alter the links within a div with the following syntax */
 #plan a {
-	color: #C41E3A;
+	color: rgb(244, 236, 8);
 }
 
 /* This alters the appearance of the div with id="signup". */
