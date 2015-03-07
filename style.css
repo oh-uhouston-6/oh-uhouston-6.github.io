@@ -59,7 +59,13 @@ div.section {
 	padding: 1em;
 	margin-bottom: 0;
 	text-align: justify;
+	width:100%;
+}
 
+div.sectionInner {
+	max-width:900px;
+	margin-right:auto;
+	margin-left:auto;
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
@@ -67,7 +73,6 @@ div.section {
 	background:#00B388;
 	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
-	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
 
 /* This alters the appearance of the div with id="signup". */
@@ -75,6 +80,10 @@ div.section {
 	height: 110px;
 	background: white;
 	text-align: center;
+}
+
+#poem #line *{
+	cursor:pointer;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
